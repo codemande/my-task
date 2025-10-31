@@ -4,7 +4,7 @@ import "./styles/ClaimCard.css";
 function ClaimCard() {
   return(
     <div className="claimCard-container">
-
+      <div className="claimCard-line"></div>
       <div className="claimCard-details">
         <div className="claimCard-name">John Doe</div>
         <div className="claimCard-id">Claim ID: CL-134763</div>

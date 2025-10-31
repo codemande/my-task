@@ -6,6 +6,32 @@
   padding: 30px 35px;
   color: #7d7d7d;
   margin-bottom: 70px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.claimCard-line::before,
+.claimCard-line::after{
+  content: "";
+  position: absolute;
+  right: -8px;
+  height: 0px;
+  transform: rotate(45deg);
+  transform-origin: top right;
+  border-left: 11px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.claimCard-line::before{
+  top: 95px;
+  width: 124px;
+  border-bottom: 10px solid #0eaef3;
+}
+
+.claimCard-line::after{
+  top: 73px;
+  width: 93px;
+  border-bottom: 10px solid #0e88f3;
 }
 
 .claimCard-details{
